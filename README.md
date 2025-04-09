@@ -6,7 +6,7 @@ Concept
 CPS uses two neural networks with the same architecture but different initializations.
 Each network generates pseudo labels for the unlabeled data.
 These pseudo labels are then used to supervise the other network, creating a cross-supervision mechanism.
-Domain Adaptation
+
 
 By leveraging labeled source domain data, a small amount of labeled target domain data, and a large amount of unlabeled target domain data, CPS bridges the gap between the source and target domains. This improves the model's performance on the target domain.
 
