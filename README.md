@@ -12,7 +12,6 @@ By leveraging labeled source domain data, a small amount of labeled target domai
 
 ![image](https://github.com/user-attachments/assets/56ff8953-a95c-421c-9dc4-4d57dbc283d1)
 
-
 Pseudo Labeling
 
 For the unlabeled target domain data, each network generates pseudo labels based on its predictions. These pseudo labels act as a form of supervision for the other network. The pseudo labels from Network A are used to supervise Network B, and vice versa. This cross-supervision mechanism helps the networks learn from each other's strengths and correct potential biases in their predictions.
